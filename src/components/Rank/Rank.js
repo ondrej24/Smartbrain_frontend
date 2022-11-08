@@ -2,11 +2,11 @@ import React from "react";
 
 const Rank = ({ name, entries }) => {
   return (
-    <div className="white f2">
+    <div className="black f2">
       <div>
-        {`${name}, you pressed the submit button ...`}
+        {`${name}, the number of examined images is ...`}
       </div>
-      <div>
+      <div className="f1">
         {`${entries}`}
       </div>
     </div>

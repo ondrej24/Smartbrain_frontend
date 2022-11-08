@@ -4,8 +4,8 @@ import './SearchBox.css';
 const SearchBox = ({ onInputChange, onButtonSubmit }) => {
     return(
         <div>
-            <p className="f4 white">
-                {'Detect the faces on the image'}
+            <p className="f4 black">
+              {'This app detects faces on images.'}
             </p>
             <div className="center">
                 <div className="searchBoxWidth form center pa4 br3 shadow-5">
